@@ -14,12 +14,33 @@ ul {
 }
 
 a {
-	color: #56bcf1;
-	outline: none;
+
+	border-top: 1px solid #56bcf1;
+	/*color: #56bcf1;
+	outline: none;*/
 }
 
 br.clear {
 	clear: both;
+}
+
+.navbar 
+	{
+    background: none;
+    margin-bottom:0;
+    min-height:50px;
+	}
+	.navbar-fixed-top {
+    min-height:40px;
+    height:30px;
+    padding-top:0;
+}
+.navbar-inner {
+    background: none;
+    border-radius:0;
+    filter: none;
+    border: none;
+    box-shadow: none;
 }
 
 #wrapper {
@@ -129,10 +150,13 @@ br.clear {
 		display: inline;
 	}
 
-	#nav a.active
+	#nav a.current
 	{
-		display: none;
+		border-top: 1px solid #56bcf1;
+		/*display: none;*/
 	}
+
+
 
 #captions{
 	margin: 0;

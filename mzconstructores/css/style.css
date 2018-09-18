@@ -39,18 +39,18 @@ font-family:'sosa';
 **********************************************************************/
  body {
     font-family:'Roboto', sans-serif;
-    color: #f0ddaa;
+    color: #003300;
     line-height:1.2em;
     font-size:17px;
     line-height:20px;
 }
 a {
-    color:#fff;
+    color:#003300;
     text-decoration: none;
 }
 a:hover {
-    color: #f0ddaa;
-    text-decoration:none;
+    color: #003300;
+    text-decoration:003300;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
@@ -64,7 +64,7 @@ p {
     color:#f8f8f8;
 }
 .navbar {
-    background: 124B3B;
+    background: none;
     margin-bottom:0;
     min-height:50px;
 }
@@ -123,7 +123,7 @@ p {
     padding-top:0;
 }
 .navbar-inner {
-    background: #333;
+    background: none;
     border-radius:0;
     filter: none;
     border: none;
@@ -144,14 +144,14 @@ p {
     box-shadow: none;
     font-size:14px;
     text-shadow: none;
-    color: #ffffff;
+    color: #003300;
     transition: border-color 1s ease;
 	background-color: #;
 	
 }
 .navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
     border: 1px solid 2ba4f8#;
-    color: #f8f8f8;
+    color: #003300;
     background-color: #;
     transition: border-color 1s ease;
 }

@@ -2569,14 +2569,15 @@ table th[class*="span"],
   opacity: 1;
 }
 
-.collapse {
-  position: relative;
+#collapse .current{
+  border-top: 1px solid #56bcf1;
+  /*position: relative;
   height: 0;
   overflow: hidden;
   -webkit-transition: height 0.35s ease;
      -moz-transition: height 0.35s ease;
        -o-transition: height 0.35s ease;
-          transition: height 0.35s ease;
+          transition: height 0.35s ease;*/
 }
 
 .collapse.in {

@@ -1,0 +1,17 @@
+
+.body {
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    line-height: 22px;
+}
+.header-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.40);
+    z-index: 9;
+}

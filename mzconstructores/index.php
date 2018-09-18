@@ -2,12 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<title>photoGallery by Free Website Templates</title>
-		
+
+		<script src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
 		<script type="text/javascript" src="js/jquery.gallerax-0.2.js"></script>
 		<script type="text/javascript" src="js/jquery.slidertron-0.1.js"></script>
-		<script type="text/javascript" src="js/filter.js"></script>		
+		<script type="text/javascript" src="js/filter.js"></script>
 		
+				
+		<!-- estilo carrusel -->
 		<link rel="stylesheet" type="text/css" href="css/style1.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<!--[if IE 9]><link href="css/ie9fix.css" rel="stylesheet" type="text/css" /><![endif]-->
@@ -34,7 +37,7 @@
          <link rel="shortcut icon" href="img/logo1.ico"> 
 <!--        <link rel="shortcut icon" href="img/logo1.png"> -->
         <!-- imagen title -->
-		<script language="JavaScript" type="text/JavaScript">
+		<!-- <script language="JavaScript" type="text/JavaScript">
 function ventanaemer(URL)
 {
 var vp;
@@ -43,7 +46,7 @@ vp = window.open(URL,"ventana1","width=350,height=300,t op=350,left=300,scrollba
 vp.focus();
 }
 
-</script>		
+</script> -->		
 		
 	</head>
 	<body>
@@ -64,7 +67,7 @@ vp.focus();
                    <!--<div class="tel">Llámenos: fijo: 042479712 | movil: 0989607555</div>-->
 					<div class="nav-collapse collapse pull-right">
                         <ul class="nav" id="top-navigation">
-                            <li class="active"><a href="#home">Inicio</a></li>
+                            <li><a href="#home" >Inicio</a></li>
 							<li><a href="#acerca_de">Acerca de</a></li>
                             <li><a href="#productos_servicios">Productos y servicios</a></li>
                             <li><a href="#trabajos">Nuestros Trabajos</a></li>
@@ -80,7 +83,7 @@ vp.focus();
 		<div id="wrapper">
 		
 			
-			<div id="categories">
+			<!-- <div id="categories">
 				<ul>
 					<li><a href="#" id="category1" class="current">Category 1</a></li>
 					<li><a href="#" id="category2" class="filter">Category 2</a></li>
@@ -89,7 +92,7 @@ vp.focus();
 					<li><a href="#" id="category5" class="filter">Category 5</a></li>
 					<li><a href="#" id="category6" class="filter">Category 6</a></li>
 				</ul>
-			</div>			
+			</div> -->			
 
 			<div id="gallery">
 			
@@ -163,7 +166,7 @@ vp.focus();
 					</div>	
 					
 					<div id="logo">
-						<h1>photo<span>Gallery</span></h1>
+						<h1>mz<span>Galeria</span></h1>
 					</div>
 			
 					<br class="clear" />
@@ -213,6 +216,9 @@ vp.focus();
 			
 			
 			</div>
+			<br>
+			<br>
+			<hr>
 			<div class="container">
 				<h1>hola</h1>
 				<br>
@@ -235,7 +241,8 @@ vp.focus();
 		
 <div style="text-align: center; font-size: 0.75em;">Diseño descargado desde <a href="http://www.misplantillas.com/">plantillas web gratis</a>.</div>
 
-<script src="js/jquery.js"></script>
+		
+		
         <script type="text/javascript" src="js/jquery.mixitup.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src="js/modernizr.custom.js"></script>

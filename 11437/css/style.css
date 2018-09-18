@@ -46,6 +46,19 @@ br.clear {
 		color: #56bcf1;
 	}
 	
+	#navbar-inner {
+
+    background: #f9f6f6;
+    border-radius: 0;
+    filter: none;
+    border: none;
+        border-top-width: medium;
+        border-right-width: medium;
+        border-bottom-width: medium;
+        border-left-width: medium;
+    box-shadow: none;
+
+}
 #categories {
 	float: right;
 }
