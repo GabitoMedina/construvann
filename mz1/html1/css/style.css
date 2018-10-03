@@ -550,7 +550,8 @@ div#preloader {
 }
 
 .test-overly {
-  background: rgba(188, 169, 169, 0.8);
+  /*background: rgba(188, 169, 169, 0.8);*/
+  background: none;
   position: absolute;
   width: 100%;
   height: 100%;
